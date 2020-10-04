@@ -1,0 +1,7 @@
+! nb source with xrdb ~/.Xresources
+
+*background: rgb:22/22/22
+*foreground: gray90
+
+xterm*faceName: Monospace
+xterm*faceSize: 14
