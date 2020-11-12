@@ -39,3 +39,5 @@ snip() {
     xwd | convert xwd:- png:- | xclip -selection clipboard -t image/png
 }
 
+export EDITOR='vim'
+export VISUAL='vim'

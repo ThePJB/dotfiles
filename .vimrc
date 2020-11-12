@@ -17,8 +17,6 @@ set confirm
 
 set laststatus=2
 
-set visualbell
-
 set cmdheight=2
 
 set number
@@ -36,6 +34,8 @@ set autochdir
 map Y y$
 
 nnoremap<C-L> :nohl<CR><C-L>
+
+set scrolloff=6
 
 " auto make install suckless
 autocmd BufWritePost config.h,config.def.h call Succ()
