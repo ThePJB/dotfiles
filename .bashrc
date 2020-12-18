@@ -41,3 +41,5 @@ snip() {
 
 export EDITOR='vim'
 export VISUAL='vim'
+
+export LD_LIBRARY_PATH=/usr/local/lib

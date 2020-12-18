@@ -36,7 +36,7 @@ map Y y$
 nnoremap<C-L> :nohl<CR><C-L>
 
 set scrolloff=6
-
+set clipboard^=unnamed
 " auto make install suckless
 autocmd BufWritePost config.h,config.def.h call Succ()
 function Succ()
