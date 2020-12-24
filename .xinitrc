@@ -1,7 +1,7 @@
 #!/bin/sh
-feh --bg-fill /home/pat/wallpapers/clouds.jpg &
+$HOME/.fehbg &
 #xrandr --output DP-0 --mode 2560x1440 --left-of DVI-D-0 --output DVI-D-0 --rotate left &
-xinput --set-prop 9 'libinput Accel Profile Enabled' 0 1 & # disable mouse accel 
+g400 &
 xset r rate 300 50 &
 
 while true; do

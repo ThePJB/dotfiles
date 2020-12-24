@@ -22,6 +22,7 @@ PS1='\[\033[1;32m\][\[\033[1;91m\]\u\[\033[1;93m\]@\[\033[1;32m\]\h\[\033[1;93m\
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/pat/.local/bin
 export PATH=$PATH:/home/pat/repo/scripts
+export LD_LIBRARY_PATH=/usr/local/lib
 
 goose() {
     search=""
